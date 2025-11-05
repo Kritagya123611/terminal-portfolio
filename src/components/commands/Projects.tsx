@@ -39,8 +39,8 @@ const Projects: React.FC = () => {
   ) : (
     <div data-testid="projects">
       <ProjectsIntro>
-        “Talk is cheap. Show me the code”? I got you. <br />
-        Here are some of my projects you shouldn't misss
+        “Talk is cheap. Show me the code.” So here’s the proof. <br />
+        Some of my favorite projects ↓
       </ProjectsIntro>
       {projects.map(({ id, title, desc }) => (
         <ProjectContainer key={id}>
@@ -56,27 +56,27 @@ const Projects: React.FC = () => {
 const projects = [
   {
     id: 1,
-    title: "Sat Naing's Blog",
-    desc: "My personal blog where I can write down my thoughts and experiences.",
-    url: "https://satnaing.dev/blog/",
+    title: "FixFlow AI — Autonomous Incident Response",
+    desc: "AI detects failures, analyzes root causes, creates tickets, generates PRs, runs tests, and verifies fixes — resolving outages in minutes, not hours.",
+    url: "https://github.com/Kritagya123611/FixFLow-AI",
   },
   {
     id: 2,
-    title: "Haru Fashion",
-    desc: "An ecommerce web application where users can browse various products and make purchases.",
-    url: "https://haru-fashion.vercel.app/",
+    title: "SwiftSearch — High-speed CLI Search Tool",
+    desc: "Lightning-fast Go-based search engine using concurrency + inverted indexing to search filenames & content across huge directory structures.",
+    url: "https://github.com/Kritagya123611/SwiftSearch",
   },
   {
     id: 3,
-    title: "Haru API",
-    desc: "A RESTful API developed for the Haru fashion ecommerce project.",
-    url: "https://satnaing.github.io/haru-api/",
+    title: "CreatorVault — Web3 Creator Economy SaaS",
+    desc: "Multi-tenant platform enabling creators to launch branded storefronts for NFTs, digital assets, exclusive content, and services.",
+    url: "https://github.com/Kritagya123611/Creator-Vault",
   },
   {
     id: 4,
-    title: "AstroPaper Blog Theme",
-    desc: "A minimal, accessible and SEO-friendly Astro blog theme.",
-    url: "https://astro-paper.pages.dev/",
+    title: "GoBalancer — Cloud-ready HTTP Load Balancer",
+    desc: "Round-robin routing, Redis-based state, health checks, and Dockerized deployment — scalable, concurrent & production-ready.",
+    url: "https://github.com/Kritagya123611/GoBalancer-Streamlined-Traffic-Orchestrator-in-Go",
   },
 ];
 
