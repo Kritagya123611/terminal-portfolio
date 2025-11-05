@@ -9,7 +9,7 @@ const theme: Themes = {
     id: "T_001",
     name: "dark",
     colors: {
-      body: "#1D2A35",
+      body: "#000000ff",
       scrollHandle: "#19252E",
       scrollHandleHover: "#162028",
       primary: "#05CE91",
